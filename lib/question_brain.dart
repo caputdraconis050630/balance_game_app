@@ -1,4 +1,6 @@
 import 'question.dart';
+import 'package:rflutter_alert/rflutter_alert.dart';
+import 'package:flutter/material.dart';
 class QuizBank{
 
   int _questionNumber = 0;
@@ -39,7 +41,5 @@ class QuizBank{
     _questionNumber++;
   }
 
-   ending(){
 
-  }
 }
