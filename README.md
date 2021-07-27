@@ -1,16 +1,20 @@
 # balance_game
 
-A new Flutter project.
+Making an application for a balance game that's a little out of fashion in Korea :)
 
-## Getting Started
+## Concept
 
-This project is a starting point for a Flutter application.
+[Question]
+From Google
+Currently, balance questions will be saved in question.dart, and will use the firebase later.
 
-A few resources to get you started if this is your first Flutter project:
+[Design]
+BackgroundColor - Making it a concept that changes the color of the background according to the progress.
+Main Display - Question Text, 2 Answer Button
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+
+나도 모르겠땅~
