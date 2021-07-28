@@ -7,6 +7,9 @@ class QuizBank{
 
   List<Question> _questions = [
     Question('A:애인 집에서 다른 이성의 팬티\nVS\nB:다른 이성의 집에서 애인의 팬티','애인 집에서 다른 이성의 팬티', '다른 이성의 집에서 애인의 팬티'),
+    Question('A:남사친의 그것이 긴게 좋다\nVS\nB:남사친의 그것이 짧은게 좋다','남사친의 그것이 긴게 좋다', '남사친의 그것이 짧은게 좋다'),
+    Question('A:절친 여동생이랑 사귀기\nVS\nB:내 여동생이 절친이랑 사귀기','절친 여동생이랑 사귀기', '내 여동생이 절친이랑 사귀기'),
+    Question('A:혼전순결\nVS\nB:혼전동거','혼전순결', '혼전동거'),
   ];
 
 
@@ -41,5 +44,7 @@ class QuizBank{
     _questionNumber++;
   }
 
-
+  void restartGame(){
+    _questionNumber = 0;
+  }
 }
